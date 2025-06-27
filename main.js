@@ -17,8 +17,8 @@ require("electron-reload")(
 // 🪟 Crear ventana
 function createWindow() {
   const win = new BrowserWindow({
-    width: 800,
-    height: 370,
+    width: 540,
+    height: 630,
     resizable: false,
     frame: false,
     titleBarStyle: "hidden",
