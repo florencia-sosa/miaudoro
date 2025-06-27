@@ -1,5 +1,16 @@
+// import { ApplicationConfig } from '@angular/core';
+
+// export const appConfig: ApplicationConfig = {
+//   providers: []
+// };
+
 import { ApplicationConfig } from '@angular/core';
+import { provideRouter } from '@angular/router';
+import { routes } from './app.routes';
 
 export const appConfig: ApplicationConfig = {
-  providers: []
+  providers: [
+    provideRouter(routes),
+    // podés agregar más providers si los necesitás
+  ],
 };

@@ -1,0 +1,28 @@
+// @import "./abstracts/colors";
+// @import "./abstracts/mixins";
+// @import "./abstracts/typography";
+// @import "./abstracts/fonts";
+
+// @import "./themes/light";
+
+// @import "./base/base";
+
+// @import "./base/typography-classes";
+
+// main.scss
+// Archivo principal de estilos para Miaudoro, usando solo módulos con @use
+
+// 1. Font-face (@font-face)
+@use './abstracts/fonts';
+
+// 2. Variables y tokens
+@use './abstracts/colors';       // Paleta base (no genera CSS)
+@use './themes/light' as theme; // Roles del tema actual (sí genera CSS con variables semánticas)
+@use './abstracts/typography';  // Variables de fuente, tamaño, peso
+
+// 3. Utilitarios
+@use './base/typography-classes'; // Clases como .title, .text-base, etc.
+// @use './base/color-classes';   // (opcional para clases tipo .bg-primary)
+
+// 4. Base de estilos generales
+@use './base/base';

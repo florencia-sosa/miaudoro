@@ -1,0 +1,17 @@
+// _light.scss
+// Tema claro para Miaudoro
+
+@use "../abstracts/colors" as colors;
+
+// 🎯 Asignación de roles con colores base
+$color-primary: colors.$pink-light;
+$color-primary-hover: colors.$pink-candy;
+$color-accent: colors.$pink-deep;
+$color-beige: colors.$beige;
+
+$color-background: colors.$lavender;
+$color-surface: colors.$white;
+
+$color-text-primary: colors.$black-soft;
+$color-text-inverse: colors.$white;
+$color-border: colors.$gray-soft;

@@ -1,0 +1,61 @@
+@use '../abstracts/typography';
+@use '../themes/light' as theme;
+
+.title {
+  font-family: typography.$font-family-primary;
+  font-weight: typography.$font-weight-extrabold;
+  font-size: typography.$font-size-3xl;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-family: typography.$font-family-primary;
+  font-weight: typography.$font-weight-bold;
+  font-size: typography.$font-size-2xl;
+  line-height: 1.3;
+}
+
+.section-title {
+  font-family: typography.$font-family-primary;
+  font-weight: typography.$font-weight-semibold;
+  font-size: typography.$font-size-xl;
+  line-height: 1.4;
+}
+
+.text-base {
+  font-family: typography.$font-family-primary;
+  font-weight: typography.$font-weight-regular;
+  font-size: typography.$font-size-base;
+  line-height: 1.5;
+}
+
+.text-sm {
+  font-family: typography.$font-family-primary;
+  font-weight: typography.$font-weight-regular;
+  font-size: typography.$font-size-sm;
+  line-height: 1.4;
+}
+
+.text-xs {
+  font-family: typography.$font-family-primary;
+  font-weight: typography.$font-weight-light;
+  font-size: typography.$font-size-xs;
+  line-height: 1.3;
+}
+
+.text-note {
+  font-family: typography.$font-family-primary;
+  font-weight: typography.$font-weight-light;
+  font-size: typography.$font-size-sm;
+  font-style: italic;
+  color: theme.$color-text-primary;
+  opacity: 0.7;
+}
+
+// Pesos utilitarios
+.font-light     { font-weight: typography.$font-weight-light; }
+.font-regular   { font-weight: typography.$font-weight-regular; }
+.font-medium    { font-weight: typography.$font-weight-medium; }
+.font-semibold  { font-weight: typography.$font-weight-semibold; }
+.font-bold      { font-weight: typography.$font-weight-bold; }
+.font-extrabold { font-weight: typography.$font-weight-extrabold; }

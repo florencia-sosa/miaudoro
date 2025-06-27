@@ -1,0 +1,35 @@
+<nav class="main-nav">
+  <ul class="nav-list">
+    <li>
+      <button
+        [routerLink]="['/timer']"
+        routerLinkActive="active"
+        aria-label="Timer"
+        class="nav-icon-button"
+      >
+        ⏱️
+      </button>
+    </li>
+    <li>
+      <button
+        [routerLink]="['/stats']"
+        disabled
+        routerLinkActive="active"
+        aria-label="Achievements"
+        class="nav-icon-button"
+      >
+        🏆
+      </button>
+    </li>
+    <li>
+      <button
+        [routerLink]="['/settings']"
+        routerLinkActive="active"
+        aria-label="Settings"
+        class="nav-icon-button"
+      >
+        ⚙️
+      </button>
+    </li>
+  </ul>
+</nav>

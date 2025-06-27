@@ -1,0 +1,30 @@
+// _colors.scss
+// Paleta base de Miaudoro (estilo kawaii pastel)
+
+//
+// 🎨 Colores base
+//
+$beige: #ffddd4;
+$lavender: #ebd8f5;
+$pink-light: #fad1e6;
+$pink-candy: #f9a8c3;
+$pink-deep: #e27baa;
+$gray-kitty: #b3b3b3;
+$gray-soft: #dadada;
+$white: #ffffff;
+$black-soft: #3b3b3b;
+
+//
+// 🎯 Roles semánticos
+//
+$color-beige: $beige;
+$color-primary: $pink-light;
+$color-primary-hover: $pink-candy;
+$color-accent: $pink-deep;
+
+$color-background: $lavender;
+$color-surface: $white;
+
+$color-text-primary: $black-soft;
+$color-text-inverse: $white;
+$color-border: $gray-soft;
