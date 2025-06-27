@@ -1,0 +1,34 @@
+@use "./../../../styles/themes/light" as theme;
+
+.btn {
+    background-color: theme.$color-primary;
+    color: theme.$color-text-primary;
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+    &.btn-primary {
+        background-color: theme.$color-primary;
+        border: 1px solid theme.$color-primary-2;
+        &:hover {
+            background-color: theme.$color-primary-hover;
+        }
+    }
+    &.btn-secondary {
+        background-color: theme.$color-secondary;
+        border: 1px solid theme.$color-secondary-2;
+        &:hover {
+            // background-color: theme.$color-ternary-4;
+        }
+    }
+    &.btn-ternary {
+        background-color: theme.$color-ternary;
+        border: 1px solid theme.$color-ternary-2;
+        // &:hover {
+        //     background-color: theme.$color-ternary-2;
+        // }
+    }
+}
+.btn:disabled {
+    // background-color: theme.$color-disabled;
+    cursor: not-allowed;
+}

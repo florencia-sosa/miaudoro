@@ -4,14 +4,20 @@
 @use "../abstracts/colors" as colors;
 
 // 🎯 Asignación de roles con colores base
-$color-primary: colors.$pink-light;
 $color-primary-hover: colors.$pink-candy;
-$color-accent: colors.$pink-deep;
+$color-primary: colors.$lavender;
+$color-secondary: colors.$green-soft;
+$color-ternary:colors.$pink-light;
+
+$color-primary-2: colors.$lavender-2;
+$color-secondary-2: colors.$green-soft-2;
+$color-ternary-2: colors.$pink-light-2;
+
 $color-beige: colors.$beige;
 
 $color-background: colors.$lavender;
 $color-surface: colors.$white;
 
-$color-text-primary: colors.$black-soft;
+$color-text-primary: colors.$violet-soft;
 $color-text-inverse: colors.$white;
 $color-border: colors.$gray-soft;

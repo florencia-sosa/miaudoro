@@ -6,6 +6,6 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [RouterModule],
   templateUrl: './nav.component.html',
-  styleUrl: './nav.component.scss',
+  styleUrls: ['./nav.component.scss','./../button/button.component.scss'],
 })
 export class NavComponent {}

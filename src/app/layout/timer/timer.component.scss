@@ -4,4 +4,24 @@
     background-position: center;
     width: 450px;
     height: 630px;
+    position: relative;
+    .cat {
+        position: absolute;
+        bottom: 135px;
+        right: 125px;
+        width: 200px;
+        height: 200px;
+        background-image: url("./../../../assets/cat/cat.png");
+        background-size: cover;
+        background-position: center;
+    }
+    .action {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        position: absolute;
+        bottom: 60px;
+        right: 85px;
+    }
 }
